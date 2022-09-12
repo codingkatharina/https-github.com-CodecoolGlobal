@@ -1,0 +1,223 @@
+Skip to content
+ 
+Search…
+All gists
+Back to GitHub
+@codingkatharina 
+@octocat
+octocat/.gitignore
+Created 9 years ago • Report abuse
+3.1k
+829
+Code
+Revisions
+1
+Stars
+3,061
+Forks
+829
+<script src="https://gist.github.com/octocat/9257657.js"></script>
+Some common .gitignore configurations
+.gitignore
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Load earlier comments...
+@Codemaster-ctrl
+Codemaster-ctrl commented on 9 May 2021
+GIT
+
+@robin-a-meade
+robin-a-meade commented on 23 May 2021
+All the comments showing use of ** are doing so unnecessarily. See https://git-scm.com/docs/gitignore where it says the pattern **/foo is the same as pattern foo.
+
+Unnecessarily Complex	Simpler
+**/*~	*~
+**/*.bak	*.bak
+**/*.log*	*.log*
+@VintiKkk
+VintiKkk commented on 22 Jun 2021
+Чтобы игнорировать файлы резервных копий, созданные текстовым редактором, в любом месте подкаталога
+
+**/*~
+Чтобы игнорировать файлы, связанные с IDE (eclipse / intellij)
+
+.classpath
+.project
+.settings
+.idea
+.metadata
+*.iml
+*.ipr
+@VintiKkk
+VintiKkk commented on 22 Jun 2021
+https://gist.github.com/octocat/9257657#gistcomment-3788864ĸ
+
+@VintiKkk
+VintiKkk commented on 22 Jun 2021
+https://git-scm.com/docs/gitignore
+
+@helloindiadevops
+helloindiadevops commented on 31 Jul 2021
+Thank you
+
+@CxrlosKenobi
+CxrlosKenobi commented on 8 Aug 2021
+Nice! I "git" it
+
+@DMC1998
+DMC1998 commented on 9 Sep 2021
+Really helped me. Thank you so much
+
+@HellishBro
+HellishBro commented on 17 Sep 2021
+I GIT it.
+
+@Ka5117737
+Ka5117737 commented on 2 Nov 2021
+Plz personally my profile.
+The very best best
+
+@elijahr2411
+elijahr2411 commented on 5 Nov 2021
+little late but __pycache__ might be a good addition
+
+@Codemaster-ctrl
+ Codemaster-ctrl commented on 11 Nov 2021
+pls how would I
+…
+On Fri, Nov 5, 2021 at 10:05 PM Elijah R ***@***.***> wrote: ***@***.**** commented on this gist. ------------------------------ little late but __pycache__ might be a good addition — You are receiving this because you commented. Reply to this email directly, view it on GitHub <https://gist.github.com/9257657#gistcomment-3952747>, or unsubscribe <https://github.com/notifications/unsubscribe-auth/AUAGNDRGN4QTFKIJEVRBSBTUKRIMDANCNFSM4HLTCFGA> . Triage notifications on the go with GitHub Mobile for iOS <https://apps.apple.com/app/apple-store/id1477376905?ct=notification-email&mt=8&pt=524675> or Android <https://play.google.com/store/apps/details?id=com.github.android&referrer=utm_campaign%3Dnotification-email%26utm_medium%3Demail%26utm_source%3Dgithub>.
+@code-victor-now
+code-victor-now commented on 11 Dec 2021
+Than you octocat! I love you
+
+@bossOfCode
+bossOfCode commented on 5 Jan
+nice job @octocat that really helped
+
+ghost commented on 7 Jan
+I "git" it now! Thanks octocat
+
+@Nuggett57
+Nuggett57 commented on 29 Jan
+git now! octocat
+
+@yuis-ice
+yuis-ice commented on 2 Feb
+This is unexpectedly nice.
+
+@dark-teal-coder
+dark-teal-coder commented on 5 Mar
+Why .class also included? Isn't it part of the source code?
+
+@Latrice4u
+Latrice4u commented on 24 Mar
+tags should be a good addition here
+
+ThanksPaypaymetheshit2000@outlook.com #
+
+@jgphilpott
+jgphilpott commented on 25 Mar • 
+This is great thanks! Also some more good stuff here: https://github.com/github/gitignore
+
+@martin-braun
+martin-braun commented on 5 Apr • 
+@elijahr2411 No, this is not for specific environments / frameworks / IDEs, this is very broad on purpose, only featuring files that must not be committed under any circumstances, such as OS specific system files or compiled / compressed files.
+
+Use this and combine it with one of those: https://github.com/github/gitignore (thanks for the link, @jgphilpott)
+
+@Latrice4u
+ Latrice4u commented on 5 Apr
+Call ***@***.***
+@Tr1985
+Tr1985 commented on 14 Apr
+Chúng ta có thể bỏ qua tệp web.Config bằng tệp gitignore không
+
+@kimfom01
+kimfom01 commented on 22 May
+lol thanks
+
+@Littlemama6130
+Littlemama6130 commented on 26 May
+https://download.cnet.com/Android-8-0-Oreo/3000-18513_4-77605750.github.com
+
+@Littlemama6130
+Littlemama6130 commented on 26 May
+https://github.com/Android-8-0-Oreo/3000-18513_4-77605750.html
+
+@Julioarita
+Julioarita commented on 20 Jun
+Totally usefull!!
+
+@Alipatiras
+Alipatiras commented on 4 Aug
+سلام ،من فکر می کنم ،هر گاه می‌خواهم پروفایل را باز کنم تا اطلاعاتم را وارد کنم به جایی جز همانی که می خواهم هدایت می شوم چند مورد اتفاق افتاده که متوجه کلاهبرداری شده ام و دیگر ادامه ندادم چگونه ایمن کنم
+
+@67788804
+67788804 commented on 8 Aug
+c'est Bon vraiment.merci beaucoup
+
+@olami1223
+olami1223 commented on 8 Aug
+Uploading ABAC4D6F-F69A-4637-812D-7802D2FD9B51.jpeg…
+
+@codingkatharina
+ 
+Add heading textAdd bold text, <Cmd+b>Add italic text, <Cmd+i>
+Add a quote, <Cmd+Shift+.>Add code, <Cmd+e>Add a link, <Cmd+k>
+Add a bulleted list, <Cmd+Shift+8>Add a numbered list, <Cmd+Shift+7>Add a task list, <Cmd+Shift+l>
+Directly mention a user or team
+Reference an issue or pull request
+Leave a comment
+Keine ausgewählt
+Attach files by dragging & dropping, selecting or pasting them.
+Styling with Markdown is supported
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You have no unread notifications
